@@ -1,7 +1,6 @@
-\"\"\"sumary_line
+from app import create_app
 
-Keyword arguments:
-argument -- description
-Return: return_description
-\"\"\"
-"""hola que pasa por ahí"""
+app = create_app()
+
+if __name__=='__main__':
+    app.run()
